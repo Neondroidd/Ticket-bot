@@ -1,0 +1,12 @@
+{
+  "prefix": "YOUR PREFIX",
+  "main_token": "BOT TOKEN",
+  "developers": ["YOUR ID"],
+  "bot_name":"BOT NAME",
+  "emoji":"TICKET EMOJI",
+  "color":"COLOR",
+  "ticket_limit":"TICKET LIMIT",
+  "support_role_id":"HELPER ID",
+  "category_id":"TICKET CATEGORY ID",
+  "log_channel_id":"TICKET LOG CHANNEL ID"
+}
