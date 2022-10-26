@@ -20,7 +20,8 @@ module.exports = class extends Command {
     const embed = new MessageEmbed()
     .setColor('GREEN')
     .setTitle(`${config.bot_name || 'Bot'}'s Command List`)
-    .setDescription(`**Milf Supremacy Support, [Invite](https://www.milfsupremacy.tk/invite)**`)
+    .setDescription(`Ticket system\n\nWant to make a bot like this?, [click me!](https://youtu.be/GyPfUUIdOTQ)`)
+    .setFooter(`created by peterhanania, secured by ItzNexus`)
 
 
     const categories = message.client.utils.removeDuplicates(message.client.commands.filter(cmd => cmd.category !== 'Owner').map(cmd => cmd.category));
@@ -49,7 +50,7 @@ module.exports = class extends Command {
         if(cmd.aliases && cmd.aliases.length) embed.addField('Aliases', cmd.aliases.map(alias => `\`${alias}\``, true).join(', '), true)
         if(cmd.cooldown && cmd.cooldown > 1) embed.addField('Cooldown', `\`${cmd.cooldown}s\``, true)
         if(cmd.examples && cmd.examples.length) embed.addField('__**Examples**__', cmd.examples.map(example => `- \`${example}\``).join('\n'))
-
+        
         message.channel.send(embed)
   
 
@@ -58,4 +59,3 @@ module.exports = class extends Command {
 
     }
 };
-

@@ -1,12 +1,11 @@
 {
-  "prefix": "YOUR PREFIX",
-  "main_token": "BOT TOKEN",
-  "developers": ["YOUR ID"],
-  "bot_name":"BOT NAME",
-  "emoji":"TICKET EMOJI",
-  "color":"COLOR",
-  "ticket_limit":"TICKET LIMIT",
-  "support_role_id":"HELPER ID",
-  "category_id":"TICKET CATEGORY ID",
-  "log_channel_id":"TICKET LOG CHANNEL ID"
+  "prefix": "?",
+  "developers": ["yourID"],
+  "bot_name":"Testing Kentang",
+  "emoji":"😊",
+  "color":"#2f3136",
+  "ticket_limit":"1",
+  "support_role_id":"852251277689880647",
+  "category_id":"852251038446125098",
+  "log_channel_id":"1034811445596131409"
 }
